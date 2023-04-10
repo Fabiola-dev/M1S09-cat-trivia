@@ -1,0 +1,31 @@
+<div class="flex pt-5 justify-center text-center">
+
+    <div class="conselho">
+        <span>{{ text }}</span>
+    </div>
+
+    <img *ngIf="!showGif" src="https://cataas.com/cat" alt="cat image">
+    <img src="https://cataas.com/cat/gif" alt="cat gif" *ngIf="true">
+
+    <div class="col mt-2">
+        <button type="button" class="btn-image" (click)="clickImage()">Imagem</button>
+        <button type="button" class="btn-gif" (click)="clickGif()">Gif</button>
+    </div>
+
+</div>
+
+
+<!-- Initial tests -->
+<!-- <div class="flex pt-5 justify-center text-center">
+    <p>Mussum Ipsum, cacilds vidis litro abertis. 
+        Quem num gosta di mim que vai caçá sua turmis!
+    </p>
+
+    <img src="../../assets/animals.jpg" width="650" height="400" alt="image" />
+
+    <div class="col mt-2">
+        <button type="button" class="btn-image" (click)="clickImage()">Imagem</button>
+        <button type="button" class="btn-gif" (click)="clickGif()">Gif</button>
+    </div>
+</div>
+ -->

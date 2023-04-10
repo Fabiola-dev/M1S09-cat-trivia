@@ -1,0 +1,45 @@
+.container {
+    background: #CCCCCC;
+    display: block;
+    margin-top: 20px;
+	padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+form {
+    display: flexbox;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input {
+    margin-left: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#password {
+    margin-left: 88px;
+}
+
+#confirmPassword {
+    margin-left: 12px;
+}
+
+button{
+    color: #FFF;
+    background-color: #3e5954;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  button:hover,button:focus{
+    color:#92a68a;
+  }
